@@ -27,7 +27,7 @@ const HeroBackground = () => {
         alt="hero image"
         quality={100}
         fill
-        className="object-cover -z-20 absolute inset-0"
+        className="object-cover fixed -z-20  inset-0"
       />
       {/* </motion.div> */}
     </>
@@ -94,7 +94,7 @@ const HeroBody = () => {
   const items = [HeroContent(), HeroCta()];
   return (
     <>
-      <div className="flex flex-col space-y-6">
+      <div className="flex flex-col space-y-6 w-screen max-w-4xl">
         {items &&
           items.map((item, index) => (
             <motion.div
@@ -113,7 +113,7 @@ const HeroBody = () => {
                   ease: "easeOut",
                 },
               }}
-              viewport={{ once: true }}
+              viewport={{ once: false }}
               key={"item" + index}
             >
               {item}
