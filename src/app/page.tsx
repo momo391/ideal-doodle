@@ -1,7 +1,18 @@
+"use client";
+
+import {
+  Hero,
+  HeroBackground,
+  HeroBody,
+  HeroOverlay,
+} from "@/components/sections/hero";
+
 export default function Page() {
   return (
-    <>
-      <p className="font-mono">outfit</p>
-    </>
+    <Hero>
+      <HeroBackground />
+      <HeroOverlay />
+      <HeroBody />
+    </Hero>
   );
 }

@@ -60,6 +60,7 @@ export default {
       fontFamily: {
         sans: ["Overpass Variable", ...fontFamily.sans],
         mono: ["Outfit Variable", ...fontFamily.sans],
+        display: ["Merienda Variable"],
       },
     },
   },

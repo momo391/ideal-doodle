@@ -3,6 +3,7 @@ import "@/styles/globals.css";
 
 import "@fontsource-variable/outfit";
 import "@fontsource-variable/overpass";
+import "@fontsource-variable/merienda";
 
 export const metadata: Metadata = {
   title: "Create Next App",
